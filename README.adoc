@@ -27,3 +27,5 @@
 . Visit http://localhost:9000 and you should see something like the following:
 +
 image::docs/homepage.png[]
+
+
