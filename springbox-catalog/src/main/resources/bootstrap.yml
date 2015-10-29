@@ -3,4 +3,4 @@ spring:
     name: springbox-catalog
   cloud:
     config:
-      uri: ${vcap.services.springbox-config-service.credentials.uri:http://localhost:8888}
+      uri: http://${CONFIG_SERVER_HOST}:${CONFIG_SERVER_PORT}
