@@ -1,0 +1,14 @@
+server:
+  port: 8082
+spring:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:9999/uaa/user
+  data:
+    neo4j:
+      host: 192.168.99.100
+      port: 7474
+logging:
+  logging:
+    org.springframework.web: DEBUG
+    io.springbox.recommendations: DEBUG
