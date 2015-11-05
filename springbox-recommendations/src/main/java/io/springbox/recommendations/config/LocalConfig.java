@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.data.neo4j.rest.SpringRestGraphDatabase;
 
 @Configuration
-@Profile("default")
+//@Profile("default")
 public class LocalConfig {
 
     @Value("${spring.data.neo4j.host}")
